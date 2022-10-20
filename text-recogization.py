@@ -149,7 +149,7 @@ def PicMatch():
     cv2.waitKey()
 
 #Ocr+区域二值判定图像文字颜色及清除
-MyOcr(input_img = 'webpage.jpg',output_img = 'webpage_no_word.jpg',text_file = 'result.txt',K=0.8)
+MyOcr(input_img = 'test0.png',output_img = 'test0_no_word.jpg',text_file = 'result.txt',K=0.5)
 
 #PicMatch()
 
