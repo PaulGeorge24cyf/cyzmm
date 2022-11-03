@@ -621,6 +621,6 @@ def CodeGenerate(input_path,output_path):
     output.close()
 
 
-Start(output_path = 'MyOutput.txt',input_img = 'example/pic3.jpg')
+Start(output_path = 'MyOutput.txt',input_img = 'example/pic1.jpg')
 
 CodeGenerate(input_path = 'MyOutput.txt',output_path = 'react-ant-demo/src/App.js')
